@@ -15,7 +15,7 @@
     -   style: formatting, missing semi colons, etc; no code change
     -   refactor: refactoring production code
     -   test: adding tests, refactoring test; no production code change
-    -   chore: updating build tasks, package manager configs, etc
+    -   chore: updating build tasks, package manager configs, etc;no code change
     -   production code change
 -   ### Pull requests to be made from develop to beta and beta to develop
 -   ### Squash commits when creating a pull request to beta from develop
