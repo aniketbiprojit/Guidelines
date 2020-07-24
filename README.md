@@ -15,9 +15,20 @@
     -   #### Actions : Reducers and Actions for react-redux
 
 -   ### Stateful Classes
+
     -   #### Define Props and States externally as types and/or interfaces as per TSX reccomendation with annotations and comments
     -   #### Constructor should be documented if any.
     -   #### Avoid using an async constructor. Use componentDidMount for async/await operations if required.
     -   #### Bindings for every function regardless of their access to State.
 
-- ### Routing needs to handled with react-router with BrowsserRouter as primary router and all routes should be defined as constants in routes.json file.
+-   ### Routing
+
+    -   #### It needs to handled with react-router or connected-react-router with BrowserRouter as primary router and all routes should be defined as constants in routes.json file.
+    -   #### Use React.lazy if possible.
+
+
+-   ### Actions 
+    - #### Use react-redux
+    - #### Extend with redux-thunk if necessary
+    - #### External binding of ConnectedRouter
+
