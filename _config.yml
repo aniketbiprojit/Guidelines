@@ -7,3 +7,5 @@ include:
   - README.md
 
 theme: jekyll-theme-minimal
+title: Guidelines
+description: Workflow guidelines to be followed
