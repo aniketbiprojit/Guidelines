@@ -20,6 +20,7 @@
 -   ### Pull requests to be made from develop to beta and beta to develop
 -   ### Squash commits when creating a pull request to beta from develop
 -   ### Use Prettier to format the code before commit.
+-   ### By default, pushing to master branch is retricted and requires approval from one reviewer to merge.
 <!-- To Do: Establish pre-commit hooks  -->
 
 ## Client Side - ReactJSX
